@@ -11,11 +11,5 @@
         <module name="cloud-consumer-dept-80" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="aa" target="1.8" />
-      <module name="cloud-consumer-dept-80" target="1.8" />
-      <module name="cloud-consumer-dept-801" target="1.8" />
-      <module name="cloudconsumerdept80" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

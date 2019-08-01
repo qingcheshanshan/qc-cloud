@@ -31,4 +31,6 @@ public class DeptController {
         Dept dept = deptService.getById(id);
         return dept;
     }
+
+
 }
