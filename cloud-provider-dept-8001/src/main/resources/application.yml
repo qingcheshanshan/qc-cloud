@@ -18,3 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+      # defaultZone: http://eureak7001.com:7001/eureka/,http://eureak7002.com:7002/eureka/,http://eureak7003.com:7003/eureka/
+  instance:
+    instance-id: cloud-provider-dept-8001 #服务名称
+    prefer-ip-address: true #显示ip
+info:
+  app.name: 测2019年8月2日15:28:07

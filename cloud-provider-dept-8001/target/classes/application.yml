@@ -2,7 +2,7 @@ server:
   port: 8001
 spring:
   application:
-    name: microservicecloud-dept11122
+    name: microservicecloud-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -18,3 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+      # defaultZone: http://eureak7001.com:7001/eureka/,http://eureak7002.com:7002/eureka/,http://eureak7003.com:7003/eureka/
+  instance:
+    instance-id: cloud-provider-dept-8001 #服务名称
+    prefer-ip-address: true #显示ip
+info:
+  app.name: 测2019年8月2日15:28:07
