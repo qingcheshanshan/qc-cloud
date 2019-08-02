@@ -17,6 +17,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/dept")
 public class DeptController {
+
+
     @Autowired
     private IDeptService deptService;
 

@@ -36,4 +36,5 @@ public class DeptController {
         Dept dept = restTemplate.getForObject(REST_URL_PREFIX + "/dept/" + id, Dept.class);
         return dept;
     }
+
 }
