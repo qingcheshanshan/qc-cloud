@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import org.jboss.logging.Field;
 
 import java.io.Serializable;
 
@@ -19,8 +20,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Dept implements Serializable {
-
     private String id;
     private String name;
-    private String db_source;
+    private String dbSource;
 }

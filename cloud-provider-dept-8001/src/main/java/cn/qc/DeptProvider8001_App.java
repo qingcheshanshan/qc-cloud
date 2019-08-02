@@ -12,7 +12,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @createTime 2019年08月01日 09:56:00
  */
 @SpringBootApplication
-//@EnableEurekaClient
 public class DeptProvider8001_App {
     public static void main(String[] args) {
         SpringApplication.run(DeptProvider8001_App.class, args);

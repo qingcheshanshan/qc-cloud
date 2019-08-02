@@ -5,7 +5,7 @@ eureka:
     registerWithEureka: false #false表示不向注册中心注册自己。
     fetchRegistry: false #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     serviceUrl:
-      # defaultZone: http://eureak7002.com:7002/eureka/,http://eureak7003.com:7003/eureka/
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      #defaultZone: http://localhost:7001/eureka
   instance:
-    hostname: eureak7001.com
+    hostname: eureka7001.com
