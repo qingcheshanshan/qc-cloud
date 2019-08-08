@@ -1,8 +1,7 @@
 package cn.qc.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import entity.Dept;
-import cn.qc.mapper.DeptMapper;
+import cn.qc.entity.Dept;
 
 /**
  * @author dinghao

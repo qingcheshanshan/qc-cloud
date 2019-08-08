@@ -1,7 +1,7 @@
 package cn.qc.controller;
 
 import cn.qc.service.IDeptService;
-import entity.Dept;
+import cn.qc.entity.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

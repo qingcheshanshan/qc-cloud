@@ -3,7 +3,7 @@ package cn.qc.service.impl;
 import cn.qc.mapper.DeptMapper;
 import cn.qc.service.IDeptService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import entity.Dept;
+import cn.qc.entity.Dept;
 import org.springframework.stereotype.Service;
 
 /**

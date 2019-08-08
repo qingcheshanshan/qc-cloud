@@ -1,7 +1,7 @@
 package cn.qc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import entity.Dept;
+import cn.qc.entity.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

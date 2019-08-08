@@ -10,11 +10,15 @@
         <module name="cloud-eureka-7001" />
         <module name="cloud-api" />
         <module name="cloud-consumer-dept-80" />
-        <module name="cloud-provider-dept-8003" />
         <module name="cloud-provider-dept-8002" />
         <module name="cloud-eureka-7002" />
+        <module name="cloud-zuul-gateway-9527" />
+        <module name="cloud-provider-dept-8003" />
         <module name="cloud-eureka-7003" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-consumer-feign" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

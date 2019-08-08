@@ -1,7 +1,6 @@
 package cn.qc.controller;
 
-import entity.Dept;
-import org.springframework.aop.support.DelegatePerTargetObjectIntroductionInterceptor;
+import cn.qc.entity.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

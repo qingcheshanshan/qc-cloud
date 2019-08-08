@@ -1,6 +1,6 @@
 package cn.qc.controller;
 
-import entity.Dept;
+import cn.qc.entity.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import cn.qc.service.IDeptService;
