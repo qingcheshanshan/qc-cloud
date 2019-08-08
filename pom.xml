@@ -17,6 +17,7 @@
         <module>cloud-provider-dept-8002</module>
         <module>cloud-provider-dept-8003</module>
         <module>cloud-zuul-gateway-9527</module>
+        <module>cloud-provider-dept-hystrix-8001</module>
 
 
     </modules>
@@ -51,10 +52,7 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
