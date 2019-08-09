@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-dept-8001" />
         <module name="cloud-eureka-7001" />
+        <module name="cloud-eureka-7003" />
         <module name="cloud-api" />
         <module name="cloud-consumer-dept-80" />
-        <module name="cloud-provider-dept-8002" />
-        <module name="cloud-eureka-7002" />
-        <module name="cloud-zuul-gateway-9527" />
+        <module name="cloud-provider-dept-hystrix-8001" />
         <module name="cloud-provider-dept-8003" />
-        <module name="cloud-eureka-7003" />
+        <module name="cloud-zuul-gateway-9527" />
+        <module name="cloud-eureka-7002" />
+        <module name="cloud-provider-dept-8002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
